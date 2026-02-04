@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects | Accurate Renovations</title>
+
+
+</head>
+
+<body>
+  
+
+  <!-- Floating white bar (stays at top while scrolling) -->
+  <div class="floatbar" id="floatbar">
+    <div class="container floatbar-inner">
+      <a class="floatbar-brand" href="index.html#home" aria-label="Accurate Renovation Services">
+        <img class="floatbar-logo" src="assets/img/logo.png" alt="Accurate Renovation Services logo" />
+      </a>
+
+      <!-- Botón hamburguesa (IGUAL que en Home) -->
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span class="menu-ico" aria-hidden="true"><span></span><span></span><span></span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- OVERLAY MENU -->
+  <div class="menu-backdrop" id="menuBackdrop" hidden></div>
+
+  <aside class="menu-panel" id="menuPanel" aria-hidden="true">
+    <div class="menu-head">
+      <div class="menu-title">Menu</div>
+      <button class="menu-close" id="menuClose" aria-label="Close menu">×</button>
+    </div>
+
+    <nav class="menu-links">
+      <a href="index.html#home" class="menu-link">Home</a>
+      <a href="index.html#services" class="menu-link">Services</a>
+      <a href="projects.html" class="menu-link">Projects</a>
+      <a href="index.html#about" class="menu-link">About</a>
+      <a href="index.html#contact" class="menu-link">Contact</a>
+    </nav>
+
+    <div class="menu-actions">
+      <a class="btn btn-dark" href="tel:+16475723971">Call +1 647 572 3971</a>
+      <a class="btn btn-light" href="index.html#contact">Get a Quote</a>
+    </div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="section alt">
+    <div class="container">
+      <h1 class="h2">Projects | Accurate Renovations Services</h1>
+      <p class="sub">Click any image to open its full gallery.</p>
+
+      <div style="margin-bottom:16px;">
+      <a class="btn btn-light" href="index.html#home">← Back to Home</a>
+      </div>
+
+
+          <div class="gallery">
+          <a class="shot" href="projects/p01/index.html"><img src="projects/p01/cover.jpg" alt="Project 01"></a>
+          <a class="shot" href="projects/p02/index.html"><img src="projects/p02/cover.jpg" alt="Project 02"></a>
+          <a class="shot" href="projects/p03/index.html"><img src="projects/p03/cover.jpg" alt="Project 03"></a>
+          <a class="shot" href="projects/p04/index.html"><img src="projects/p04/cover.jpg" alt="Project 04"></a>
+          <a class="shot" href="projects/p05/index.html"><img src="projects/p05/cover.jpg" alt="Project 05"></a>
+          <a class="shot" href="projects/p06/index.html"><img src="projects/p06/cover.jpg" alt="Project 06"></a>
+          <a class="shot" href="projects/p07/index.html"><img src="projects/p07/cover.jpg" alt="Project 04"></a>
+          <a class="shot" href="projects/p08/index.html"><img src="projects/p08/cover.jpg" alt="Project 05"></a>
+          <a class="shot" href="projects/p09/index.html"><img src="projects/p09/cover.jpg" alt="Project 06"></a>
+ 
+</div>
+    </section>
+       
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span>Accurate Renovation Services. All rights reserved.</div>
+      <div class="footer-links">
+        <a href="index.html#contact">Get a Quote</a>
+        <a href="tel:+16475723971">Call</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- IMPORTANTE: para que funcione el menú y el año -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project 01 | Accurate Renovation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Usa tu CSS global -->
+  <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+
+<body>
+
+  <!-- Botón volver -->
+  <div style="padding: 40px;">
+    <a href="../../projects.html" style="text-decoration:none;">
+      ← Back to Projects
+    </a>
+  </div>
+
+  <!-- Título -->
+  <h1 style="text-align:center; margin-bottom:40px;">
+    Project 09
+  </h1>
+
+  <!-- Galería -->
+  <div class="project-gallery">
+    <img src="01.jpg" alt="Project photo 1">
+
+  </div>
+
+</body>
+</html>
